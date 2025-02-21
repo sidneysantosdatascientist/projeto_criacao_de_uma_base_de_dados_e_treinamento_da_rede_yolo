@@ -1,14 +1,14 @@
-# 📌 YOLOv8 - Detecção de Objetos no Google Colab
+ YOLOv8 - Detecção de Objetos no Google Colab
 
 Este projeto utiliza o modelo **YOLOv8** para detectar objetos em imagens, permitindo que usuários carreguem imagens no **Google Colab** e obtenham predições automáticas.
 
-## 🚀 Tecnologias Utilizadas
+Tecnologias Utilizadas
 - Python
 - YOLOv8 (Ultralytics)
 - OpenCV
 - Google Colab
 
-## 📌 Instalação
+Instalação
 
 Antes de rodar o projeto, instale as dependências:
 
@@ -16,7 +16,7 @@ Antes de rodar o projeto, instale as dependências:
 pip install -r requirements.txt
 ```
 
-## 🖼️ Como Rodar a Detecção
+Como Rodar a Detecção
 
 1. Faça upload de uma imagem no Google Colab.
 2. Execute o script `detect.py` para rodar a detecção de objetos.
@@ -26,13 +26,7 @@ pip install -r requirements.txt
 python detect.py
 ```
 
-## 📌 Exemplo de Uso
-
-Após rodar o código, a saída será uma imagem com as detecções feitas pelo YOLOv8, similar a esta:
-
-![Exemplo de Detecção](images/example_output.png)
-
-## 📌 Treinamento de um Modelo Personalizado
+Treinamento de um Modelo Personalizado
 
 Se quiser treinar o YOLOv8 em suas próprias classes, siga os passos:
 
@@ -43,7 +37,6 @@ Se quiser treinar o YOLOv8 em suas próprias classes, siga os passos:
 ```bash
 python train.py
 ```
-
-## 📌 Autores
+Autores
 
 - **Sidney Pereira Santos** - *Desenvolvedor* ([LinkedIn](https://www.linkedin.com/in/sidney-santos-analista-de-dados/))
